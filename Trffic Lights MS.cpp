@@ -21,3 +21,6 @@ const int trafficLights[4][3] = {
   const int minGreenTime = 5000;
   const int yellowTime = 2000;
   const int redBufferTime = 1000;
+
+  // Emergency settings
+  const int emergencyDuration = 6000; // 6 sec
