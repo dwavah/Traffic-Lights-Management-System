@@ -24,3 +24,12 @@ const int trafficLights[4][3] = {
 
   // Emergency settings
   const int emergencyDuration = 6000; // 6 sec
+
+  void setup() {
+    Serial.begin(9600);
+  
+
+
+
+
+}
