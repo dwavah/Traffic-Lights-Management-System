@@ -35,7 +35,12 @@ const int trafficLights[4][3] = {
           digitalWrite(trafficLights[i][j], LOW);
         }
       }
-
+    // Ultrasonic sensors
+    for (int i = 0; i < 8; i++) {
+        pinMode(trigPins[i], OUTPUT);
+        pinMode(echoPins[i], INPUT);
+      }
+    
 
 
 }
