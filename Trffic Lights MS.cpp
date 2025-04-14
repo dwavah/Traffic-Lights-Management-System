@@ -28,7 +28,13 @@ const int trafficLights[4][3] = {
   void setup() {
     Serial.begin(9600);
   
-
+    // Traffic lights
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 3; j++) {
+          pinMode(trafficLights[i][j], OUTPUT);
+          digitalWrite(trafficLights[i][j], LOW);
+        }
+      }
 
 
 
