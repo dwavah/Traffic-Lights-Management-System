@@ -12,4 +12,7 @@ const int trafficLights[4][3] = {
     const int echoPins[8] = {22, 26, 30, 34, 38, 42, 46, 50}; // Echo
 
       // Emergency buzzer pin (passive buzzer)
-  const int buzzerPin = 52;
+    const int buzzerPin = 52;
+
+    // Distance threshold to detect a car
+    const int vehicleThreshold = 6; // cm (adjusted for small demo lanes)
